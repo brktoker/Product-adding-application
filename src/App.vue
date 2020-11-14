@@ -6,8 +6,7 @@
     <br><br>
     <app-progress></app-progress>
     <br><br>
-    <h3 class="text-center">List of Products</h3>
-    <hr>
+    
     <app-products></app-products>
   </div>
 </template>
@@ -35,7 +34,7 @@
   }
 </script>
 
-<style>
+<style scope>
   body {
     background-color: aliceblue;
     padding-top: 20px;
